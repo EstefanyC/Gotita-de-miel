@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Documento</title>
+	<link rel="stylesheet" type="text/css" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+<body>
+	<section>
+	<div class="container center-align">
+		<h3 id="Regresar">Prueba</h3>
+		<input id="Iniciar" type="submit" value="Iniciar" class="btn">
+		<div class="row" hidden id="p1">
+			<div class="col s12 input-field">
+				<select>
+					<option value="" disabled selected></option>
+					<option value="0">Femenino</option>
+					<option value="1">Masculino</option>
+				</select>
+				<label>Sexo</label>
+			</div>
+			<div class="col s12 input-field">
+				<select>
+					<option value=""></option>
+					<option value="0">Soltero</option>
+					<option value="1">Casado</option>
+					<option value="2">Divorciado</option>
+				</select>
+				<label>Estado Civil</label>
+			</div>
+		</div>
+		<div class="row" hidden id="p2">
+				<div class="col s12 input-field">
+					<input type="number">
+					<label>Edad</label>
+					</div>
+					<div class="col s12 input-field">
+						<select>
+							<option value=""></option>
+							<option value="0">Nicaragua</option>
+							<option value="1">El Savador</option>
+							<option value="2">Honduras</option>
+							<option value="2">CostaRica</option>
+						</select>
+						<label>Pais</label>
+					</div>
+		</div>
+		<div class="row" hidden id="p3">
+			<div class="col s12 input-field">
+				<input type="text" name="" class="datepicker">
+				<label>Fecha de Nacimiento</label>
+			</div>
+			<div class="col s12 input-field">
+				<select>
+					<option value=""></option>
+					<option value="0">O+</option>
+					<option value="1">O-</option>
+					<option value="2">A</option>
+					<option value="3">B</option>
+					<option value="4">AB</option>
+				</select>
+				<label>Tipo de Sangre</label>
+			</div>
+		</div>
+		<input id="Siguiente" type="submit" class="btn" value="Siguiente">
+	</div>
+	</section>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/sweetalert2.min.js"></script>
+	<script src="../js/prueba.js"></script>
+	<script src="../js/program.js"></script>
+	<script src="../js/materialize.min.js"></script>
+
+</body>
+</html>
